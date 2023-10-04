@@ -1,8 +1,9 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
- * insert_node - Inserts a number into a sorted singly-linked list.
- * @head: A pointer the head of the linked list.
- * @number: The number to insert.
+ * insert_node - inserts a node into a sorted linked list
+ * @head: Pointer to the first node.
+ * @number: Number to be inserted.
  *
- * Return: If the function fails - NULL.
+ * Return: Pointer to new node, or NULL if it fails.
